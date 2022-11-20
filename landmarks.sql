@@ -78,7 +78,7 @@ INSERT INTO `thailand` (`id`, `name`, `detail`, `province`, `open_close`, `coord
 --
 -- Indexes for table `thailand`
 --
-ALTER TABLE `thailand`
+ALTER TABLE `landmarks`
 ADD PRIMARY KEY (`id`);
 
 --
@@ -88,7 +88,7 @@ ADD PRIMARY KEY (`id`);
 --
 -- AUTO_INCREMENT for table `thailand`
 --
-ALTER TABLE `thailand`
+ALTER TABLE `landmarks`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 COMMIT;
 
